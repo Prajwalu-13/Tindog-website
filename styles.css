@@ -1,0 +1,149 @@
+body{
+    font-family: 'Rajdhani';
+}
+/* title */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+.imgadd{
+    
+    border-radius: 20px;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 20%;
+}
+
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 2rem;
+line-height: 1.2;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+.download-btn{
+   margin-right: 10px;
+   margin-top: 5%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+/* Navigation bar */
+.navbar-brand{
+font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrate-Light";
+}
+ /* features */
+
+ #features{
+background-color: #fff;
+    padding: 7% 15%; 
+    border-radius: 15px 15px;
+   position: relative;
+   /* z-index: 1; */
+ }
+ 
+ .feature-box{
+    text-align: center;
+ }
+ h3{
+    font-family: "Rajdhani-bold";
+    font-size: 1.6rem;
+ }
+ p{
+    color: #8f8f8f;
+ }
+ .icon{
+    color: #ef1702;
+    margin-bottom: 1rem;
+ }
+ .icon:hover{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+ }
+
+/* testimonial */
+
+#testimonials{
+     
+     background-color: #ff4c68;
+     color:#ffff;
+     font-family: "Rajdhani";
+     font-size: 1.2rem;
+     font-weight: 1.3rem;
+     text-align: center;
+
+}
+.testimonial-image{
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+
+}
+.logo{
+    width: 10%;
+    margin: 20px 20px 20px;
+    padding-left: 17px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+
+}
+@media(max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .imgadd{
+        position:static;
+        border-radius:10%;
+        transform:rotate(0);
+        padding-top:15%;
+    }
+
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15% ;
+    color: #fff;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Rajdhani";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
